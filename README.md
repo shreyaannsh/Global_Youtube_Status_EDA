@@ -122,26 +122,4 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 Thanks to the dataset provider and the open-source Python community.
 
----
 
-## 🔗 Connect with Me
-
-Feel free to reach out if you have questions or suggestions.
-
-📧 [yourname@example.com](mailto:yourname@example.com)
-🌐 [yourportfolio.com](https://yourportfolio.com)
-🐦 [Twitter](https://twitter.com/yourhandle) | 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
-```
-
----
-
-Would you like me to also:
-- Generate a `requirements.txt` file?
-- Add badges (like Python version, license, etc.)?
-- Help you upload it to GitHub?
-
-Let me know what you need next!
-```
