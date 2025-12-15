@@ -1,12 +1,12 @@
 # Global_Youtube_Status_EDA
 
-# 📊 Global YouTube Statistics – Exploratory Data Analysis
+#  Global YouTube Statistics – Exploratory Data Analysis
 
 This project presents an in-depth Exploratory Data Analysis (EDA) of a dataset titled **"Global YouTube Statistics"**. The goal is to uncover trends, insights, and patterns from YouTube channels across different categories, countries, and metrics such as subscriber count, video views, and channel types.
 
 ---
 
-## 📁 Dataset Overview
+Dataset Overview
 
 The dataset contains global statistics of various YouTube channels. It includes information such as:
 
@@ -17,11 +17,10 @@ The dataset contains global statistics of various YouTube channels. It includes 
 - Number of video views
 - Country
 
-> 📌 **Source**: Assumed to be a structured CSV file with encoding handled using `latin1`.
+>  **Source**: Assumed to be a structured CSV file with encoding handled using `latin1`.
 
 ---
-
-## 🛠️ Tools & Libraries Used
+Tools & Libraries Used
 
 - **Python** (Pandas, NumPy)
 - **Matplotlib** and **Seaborn** for data visualization
@@ -29,7 +28,7 @@ The dataset contains global statistics of various YouTube channels. It includes 
 
 ---
 
-## 🧹 Data Preprocessing
+Data Preprocessing
 
 - Loaded data using `pandas.read_csv()`
 - Checked data types and null values with `.info()` and `.describe()`
@@ -38,29 +37,29 @@ The dataset contains global statistics of various YouTube channels. It includes 
 
 ---
 
-## 📈 Key Visualizations & Insights
+##  Key Visualizations & Insights
 
-### 1. 📊 Mean Subscribers by Category
+### 1.  Mean Subscribers by Category
 - Grouped by `category` and calculated average subscribers.
 - Visualized using a **bar chart**.
 - Insight: Some categories have significantly higher average subscribers, hinting at more popularity.
 
-### 2. 🥧 Channel Type Distribution
+### 2.  Channel Type Distribution
 - Used `value_counts()` to compute channel type frequencies.
 - Plotted as a **pie chart** showing proportionate distribution.
 
-### 3. 📉 Scatter Plot: Subscribers vs. Video Views
+### 3.  Scatter Plot: Subscribers vs. Video Views
 - Visualized the relationship between subscribers and video views.
 - Insight: A positive correlation is evident—channels with more subscribers generally have more video views.
 
-### 4. 🌍 Top Countries by Total Subscribers
+### 4.  Top Countries by Total Subscribers
 - Aggregated subscriber counts grouped by `Country`.
 - Top 10 countries plotted using a **bar chart**.
 - Insight: Countries like the US and India dominate the platform in total subscriber count.
 
 ---
 
-## 🧠 Summary of Findings
+##  Summary of Findings
 
 - **Content categories** vary significantly in terms of average subscriber base.
 - **Entertainment and music-related channels** tend to perform well globally.
@@ -69,7 +68,7 @@ The dataset contains global statistics of various YouTube channels. It includes 
 
 ---
 
-## 🧭 Future Work
+##  Future Work
 
 - Deep dive into **engagement metrics** if available (likes, comments, etc.)
 - Time-series analysis for subscriber growth (if data available)
@@ -78,7 +77,7 @@ The dataset contains global statistics of various YouTube channels. It includes 
 
 ---
 
-## 💾 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
